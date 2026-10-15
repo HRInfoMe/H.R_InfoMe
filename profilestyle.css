@@ -60,7 +60,7 @@
     height: 150%;
     transition: left 0.70s ease;
 }
-.profiles-card:hover::before {left: 135%;}
+.profiles-card:hover::before {left: 140%;}
 img {
     /* position: absolute; */
     display: flex;
@@ -229,7 +229,6 @@ h2 {
               0 0 50px #02c8fa;
     border: #053fff 1px solid;
 }
-
 .icon_facebook i {
     color: #0817f1;
     /* transform: translateY(6px); */
