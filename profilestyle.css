@@ -23,7 +23,7 @@
     display: flex;
     border-radius: 25px;
     border: 1px solid #a6b0b4ab;
-    backdrop-filter: blur(9px);
+    backdrop-filter: blur(8px);
     top: 3cm;
     overflow: hidden;
     flex-wrap: wrap;
@@ -44,7 +44,7 @@
     box-shadow: 0 5px 60px -1px rgba(20, 39, 51, 0.87)
                 ,0 5px 60px -1px rgba(22, 43, 56, 0.87);
     border: 1px solid #3e9ef8;
-    backdrop-filter: blur(11px);
+    backdrop-filter: blur(10px);
     transition: all 0.30s ease-in-out;
     /* transform: translateY(6px); */
 }
