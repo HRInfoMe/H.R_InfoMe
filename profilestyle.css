@@ -13,9 +13,13 @@
     /* background: radial-gradient(215deg, #1c90a5 50% ,#105888f3 100%); */
     /* background-color: rgba(17, 26, 33, 0.87); */
     min-height: 100vh;
-    flex-wrap:nowrap;
+    /* flex-wrap:nowrap; */
     background: url('https://i.postimg.cc/XN2Rq8Yq/japan-background-digital-art.jpg') center/cover no-repeat;
     
+}
+.profiles-card body html {
+    display: block;
+    flex-wrap: wrap;
 }
 .profiles-card {
     background:linear-gradient(135deg ,#123f5859 30% ,#03394959 80%);
@@ -41,10 +45,10 @@
 .profiles-card:hover{
     display: flex;
     position: absolute;
-    box-shadow: 0 5px 60px -1px rgba(20, 39, 51, 0.87)
-                ,0 5px 60px -1px rgba(22, 43, 56, 0.87);
+    box-shadow: 0 8px 50px -1px rgba(20, 39, 51, 0.87)
+                ,0 8px 30px -1px rgba(22, 43, 56, 0.87);
     border: 1px solid #3e9ef8;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(9px);
     transition: all 0.30s ease-in-out;
     /* transform: translateY(6px); */
 }
@@ -93,17 +97,17 @@ img {
     display: flex;
     position: absolute;
     /* object-fit: cover; */
-    border: 2px solid rgba(94, 202, 252, 0.562);
+    border: 2px solid rgba(15, 133, 243, 0.562);
     transition: all 0.40s ease-in-out;
     backdrop-filter: blur(10px);
 
 }
 img:hover {
     cursor: pointer;
-    border: 2px solid #2bc3ffd8;
+    border: 2px solid #00c3ff;
     box-shadow: 0 4px 15px 3px rgba(7, 23, 26, 0.993);
     /* transform:translateY(-6px); */
-    /* transform: scale(1.2); */
+    /* transform: translatey(10px); */
 }
 h2 {
     position: absolute;
@@ -131,6 +135,7 @@ h2 {
     /* justify-content: center; */
     align-items: center;
     padding: 4px;
+    /* overflow: hidden; */
     margin-top: 13em;
     /* transition: all 0.30s ease-in-out; */
     /* background: linear-gradient(215deg ,#0849d6 50% ,#06a3e1 100%);   */
@@ -159,7 +164,7 @@ h2 {
 
  .profiles-card i {
     /* display:flex; */
-    background: linear-gradient(215deg ,#265068bb 40% ,#2795b198 100%);
+    /* background: linear-gradient(215deg ,#265068bb 40% ,#2795b198 100%);*/
     /* background: radial-gradient(135deg ,#92b1eb 50% ,#147297 80%); */
     width: 81px;
     /* border: #05f7ff 0.50px solid; */
@@ -168,8 +173,8 @@ h2 {
     padding: 12px;
     /* background: transparent; */
     /* margin: 1em; */
-    box-shadow:  0 0px 9px -1px rgb(17, 32, 36)
-                ,0 0px 9px -1px rgb(17, 32, 36);
+    box-shadow:  0 2px 10px -1px rgb(17, 32, 36)
+                ,0 2px 12px -1px rgb(17, 32, 36);
     /* box-shadow: 0 0 10px rgba(0,240,255,0.2); */
     color: aliceblue;
     /* transition: all 0.30s ease-in-out; */
@@ -231,8 +236,11 @@ h2 {
 }
 .icon_facebook i {
     color: #0817f1;
+    /* border: 1px solid #01f7ff; */
+    background: linear-gradient(215deg ,#326786f3 40% ,#0fbde9ad 100%);
     /* transform: translateY(6px); */
     /* background: transparent; */
+
     transition: all 0.06s ease-in-out;
 }
 .profiles-card .icon_facebook i:hover {
@@ -248,6 +256,7 @@ h2 {
     border: #01fff2 1px solid;
 }
 .icon_telegram i {
+    background: linear-gradient(215deg ,#326786f3 40% ,#0fbde9ad 100%);
     color: rgb(9, 226, 255);
     transition: all 0.06s ease-in-out;
 }
@@ -265,6 +274,7 @@ h2 {
     border: #010305 1px solid;
 }
 .icon_tiktok i{
+    background: linear-gradient(215deg ,#326786f3 40% ,#0fbde9ad 100%);
     color: black;
     transition: all 0.06s ease-in-out;
 }
@@ -278,6 +288,7 @@ h2 {
     border: #ff05f3 1px solid;
 }
 .icon_instagram i {
+    background: linear-gradient(215deg ,#326786a6 40% ,#0fbde994 100%);
    color: #d60857;
    transition: all 0.06s ease-in-out;
 }
@@ -492,6 +503,7 @@ h2 {
     /* width: 10px; */
     border-radius: 10px;
 }
+
 
 
 
