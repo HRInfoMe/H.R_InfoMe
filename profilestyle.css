@@ -518,6 +518,7 @@ h2 {
     border-radius: 30px;
     backdrop-filter: blur(12px);
     background-color: #30393b52;
+    text-shadow: 0 5px 8px rgba(25, 28, 29, 0.74);
     color: #f8f1f1;
 }
 .downloadfree :hover{
