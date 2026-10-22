@@ -45,8 +45,8 @@
 .profiles-card:hover{
     display: flex;
     position: absolute;
-    box-shadow: 0 8px 50px -1px rgba(20, 39, 51, 0.87)
-                ,0 8px 30px -1px rgba(22, 43, 56, 0.87);
+    box-shadow: 0 8px 50px -1px rgba(45, 86, 112, 0.87)
+                ,0 8px 40px -1px rgba(52, 143, 199, 0.87);
     border: 1px solid #3e9ef8;
     backdrop-filter: blur(9px);
     transition: all 0.30s ease-in-out;
@@ -230,7 +230,7 @@ h2 {
     transform: rotate(1.2);
     /* background-color: #d83737; */
     justify-content: center;
-    box-shadow: 0 0 25px #02f2fa,
+    box-shadow: 0 0 25px #02b4fa,
               0 0 50px #02c8fa;
     border: #053fff 1px solid;
 }
@@ -251,8 +251,8 @@ h2 {
     display: flex;
     background: linear-gradient(215deg ,#6b96a8 40% ,#cce2e4 100%);
     justify-content: center;
-    box-shadow: 0 0 25px #01f7ff,
-              0 0 50px #01fff2;
+    box-shadow: 0 0 25px #01d9ff,
+              0 0 50px #01ccff;
     border: #01fff2 1px solid;
 }
 .icon_telegram i {
@@ -268,8 +268,8 @@ h2 {
     /* display: flex; */
     background: linear-gradient(215deg ,#6b96a8 40% ,#cce2e4 100%);
     justify-content: center;
-    box-shadow: 0 0 25px #01f7ff,
-              0 0 50px #01fff2;
+    box-shadow: 0 0 25px #0f2627,
+              0 0 50px #23302f;
     /* opacity: 1; */
     border: #010305 1px solid;
 }
@@ -282,9 +282,8 @@ h2 {
     display: flex;
     background: linear-gradient(215deg ,#7096a7 40% ,#cce2e4 100%);
     justify-content: center;
-    box-shadow: 0 0 25px #01f7ff,
-                0 0 50px #01fff2,
-                0 0 60px #15dad0;
+    box-shadow: 0 0 25px #cc01ff,
+                0 0 50px #d501ff;
     border: #ff05f3 1px solid;
 }
 .icon_instagram i {
@@ -503,7 +502,25 @@ h2 {
     /* width: 10px; */
     border-radius: 10px;
 }
-
-
-
+.downloadfree {
+    display: flex;
+    /* position: fixed; */
+    top: 100%;
+    /* padding-top: 50%; */
+    
+    
+}
+.downloadfree a {
+    display: block;
+    /* width: 5%; */
+    padding: 1em;
+    margin-top: 29em;
+    border-radius: 30px;
+    backdrop-filter: blur(12px);
+    background-color: #30393b52;
+    color: #f8f1f1;
+}
+.downloadfree :hover{
+    box-shadow: 0 0px 30px -1px rgba(248, 254, 255, 0.432);
+}
 
