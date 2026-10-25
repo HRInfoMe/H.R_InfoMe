@@ -501,27 +501,43 @@ h2 {
     /* background: #02f2fa; */
     /* width: 10px; */
     border-radius: 10px;
+    
 }
 .downloadfree {
     display: flex;
-    /* position: fixed; */
-    top: 100%;
-    /* padding-top: 50%; */
-    
-    
+    /* position: relative; */
+    /* overflow: hidden; */
+    color: #f5faff;
+    /* background: transparent; */
+    /* border: 2px solid #10b981 */
+    /* transition: all 0.20s ease; */
+    transition: all 0.06s ease;
+    /* font-size: 18px;  */
+}
+.downloadfree a:hover{
+    color: #ec5f6762;
+    cursor:not-allowed;
+    background-color: #1a455285;
+    /* box-shadow: 0 0px 30px #6ec7dd,
+                0 0px 50px #82d0e4 */
 }
 .downloadfree a {
-    display: block;
-    /* width: 5%; */
-    padding: 1em;
-    margin-top: 29em;
+    /* position: relative; */
+    display: flex;
+    color: #f8f1f171;
+    background: transparent;
+    width: 20em;
+    height: 50px;
+    top: 8em;
+    border: 1px solid #58b2c9;
     border-radius: 30px;
-    backdrop-filter: blur(12px);
-    background-color: #30393b52;
-    text-shadow: 0 5px 8px rgba(25, 28, 29, 0.74);
-    color: #f8f1f1;
+    text-shadow: 0 6px 8px rgba(0, 0, 0, 0.808) ;
+    backdrop-filter: blur(8px);
+    /* background-color: #747a805e; */
+    /* overflow: hidden; */
+    transition: all 0.06s ease;
 }
-.downloadfree :hover{
-    box-shadow: 0 0px 30px -1px rgba(248, 254, 255, 0.432);
+.downloadfree div a {
+    display: flex;
+    left: 1em;
 }
-
