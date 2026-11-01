@@ -1,8 +1,10 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box ;
 }
+
  body {
     /* position: absolute;   */
     display:flex;
@@ -17,10 +19,13 @@
     background: url('https://i.postimg.cc/XN2Rq8Yq/japan-background-digital-art.jpg') center/cover no-repeat;
     
 }
+
+
 .profiles-card body html {
     display: block;
     flex-wrap: wrap;
 }
+
 .profiles-card {
     background:linear-gradient(135deg ,#123f5859 30% ,#03394959 80%);
     position:fixed;
@@ -102,6 +107,7 @@ img {
     backdrop-filter: blur(10px);
 
 }
+
 img:hover {
     cursor: pointer;
     border: 2px solid #00c3ff;
@@ -126,6 +132,7 @@ h2 {
     position: absolute;
     display: flex;
 }
+
 
  a {
     position:relative;
@@ -516,7 +523,7 @@ h2 {
 .downloadfree a:hover{
     color: #e06369c5;
     backdrop-filter: blur(9px);
-    cursor: not-allowed;
+    cursor:pointer;
     background-color: #1a455285;
     border: 1px solid #04e0fd;
     /* transform: translateY(12px) ,rotateY(1.2px); */
@@ -527,7 +534,7 @@ h2 {
 .downloadfree a {
     /* position: fixed; */
     /* display: flex; */
-    cursor: not-allowed;
+    /* cursor: not-allowed; */
     color: #f8f1f1d3;
     background:linear-gradient(255deg ,#76e4de88 50% ,#3ac1f77a 100%);
     width: 20em;
