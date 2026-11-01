@@ -23,7 +23,7 @@
 }
 .profiles-card {
     background:linear-gradient(135deg ,#123f5859 30% ,#03394959 80%);
-    position:absolute;
+    position:fixed;
     display: flex;
     border-radius: 25px;
     border: 1px solid #a6b0b4ab;
@@ -481,8 +481,8 @@ h2 {
     /* margin: 120px; */
     width: 70px;
     height: 26px;
-    padding: 6px;
-    padding-left: 3%;
+    padding: 7px;
+    padding-left: 3.10%;
     margin-top: 36%;
     box-shadow: 0 3px 10px -1px #010305;
     left: 76.10%;
@@ -504,40 +504,40 @@ h2 {
     
 }
 .downloadfree {
+    /* position: fixed; */
     display: flex;
     /* position: relative; */
     /* overflow: hidden; */
     color: #f5faff;
-    /* background: transparent; */
-    /* border: 2px solid #10b981 */
-    /* transition: all 0.20s ease; */
+    /* padding-left: 1em; */
     transition: all 0.06s ease;
     /* font-size: 18px;  */
 }
 .downloadfree a:hover{
-    color: #ec5f6762;
-    cursor:not-allowed;
+    color: #e06369c5;
+    backdrop-filter: blur(9px);
+    cursor: not-allowed;
     background-color: #1a455285;
-    /* box-shadow: 0 0px 30px #6ec7dd,
-                0 0px 50px #82d0e4 */
+    border: 1px solid #04e0fd;
+    /* transform: translateY(12px) ,rotateY(1.2px); */
+    box-shadow: 0 0px 30px #6ec7dd,
+                0 0px 50px #82d0e4;
+    transition: all 0.12s ease;
 }
 .downloadfree a {
-    /* position: relative; */
-    display: flex;
-    color: #f8f1f171;
-    background: transparent;
+    /* position: fixed; */
+    /* display: flex; */
+    cursor: not-allowed;
+    color: #f8f1f1d3;
+    background:linear-gradient(255deg ,#76e4de88 50% ,#3ac1f77a 100%);
     width: 20em;
-    height: 50px;
-    top: 8em;
-    border: 1px solid #58b2c9;
+    height: 60px;
+    top: 130px;
+    border: 1px solid #85ddf38f;
     border-radius: 30px;
     text-shadow: 0 6px 8px rgba(0, 0, 0, 0.808) ;
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(6px);
     /* background-color: #747a805e; */
     /* overflow: hidden; */
     transition: all 0.06s ease;
-}
-.downloadfree div a {
-    display: flex;
-    left: 1em;
 }
