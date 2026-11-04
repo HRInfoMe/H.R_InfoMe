@@ -521,14 +521,14 @@ h2 {
     /* font-size: 18px;  */
 }
 .downloadfree a:hover{
-    color: #e06369c5;
+    color: #161414c5;
     backdrop-filter: blur(9px);
     cursor:pointer;
     background-color: #1a455285;
-    border: 1px solid #04e0fd;
+    border: 1px solid #09dafa;
     /* transform: translateY(12px) ,rotateY(1.2px); */
-    box-shadow: 0 0px 30px #6ec7dd,
-                0 0px 50px #82d0e4;
+    box-shadow: 0 0px 30px #1f393f,
+                0 0px 50px #15a3c7;
     transition: all 0.12s ease;
 }
 .downloadfree a {
@@ -536,15 +536,19 @@ h2 {
     /* display: flex; */
     /* cursor: not-allowed; */
     color: #f8f1f1d3;
-    background:linear-gradient(255deg ,#76e4de88 50% ,#3ac1f77a 100%);
+    background:linear-gradient(255deg ,#18c2ec88 50% ,#156c8f7a 100%);
     width: 20em;
+    padding-left: 8%;
     height: 60px;
     top: 130px;
     border: 1px solid #85ddf38f;
     border-radius: 30px;
     text-shadow: 0 6px 8px rgba(0, 0, 0, 0.808) ;
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(06px);
     /* background-color: #747a805e; */
     /* overflow: hidden; */
     transition: all 0.06s ease;
+}
+.downloadfree i {
+    padding-left: 5%;
 }
