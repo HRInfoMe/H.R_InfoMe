@@ -4,6 +4,16 @@
     padding: 0;
     box-sizing: border-box ;
 }
+:root {
+    --navy: #1b4b78;
+    --navy-muted: #55718c;
+    --accent-cyan: #00d9e9;
+    --accent-pink: #5c5ff4;
+    --shadow-soft: 0 10px 30px rgba(209, 207, 238, 0.06);
+    --font-head: 'Rajdhani', 'Arial Narrow', sans-serif;
+    --font-body: 'Outfit', sans-serif;
+    --container: 1280px;
+}
 
  body {
     /* position: absolute;   */
@@ -11,11 +21,14 @@
     place-items: center;
     justify-content: center;
     align-items: center;
-    /* overflow: auto; */
+    overflow: auto;
     /* background: radial-gradient(215deg, #1c90a5 50% ,#105888f3 100%); */
     /* background-color: rgba(17, 26, 33, 0.87); */
+    /* max-width: 100vh; */
+    /* padding-left: 5; */
+    width: auto;
+    height: auto;
     min-height: 100vh;
-    /* flex-wrap:nowrap; */
     background: url('https://i.postimg.cc/XN2Rq8Yq/japan-background-digital-art.jpg') center/cover no-repeat;
     
 }
@@ -164,6 +177,7 @@ h2 {
     /* Smooth Animation BTN*/   
   .profiles-card a :hover {
     transform: translateY(-6%);
+    
     /* transition: all 0.20s ease-in-out; Hover Out */
     /* color: #ffffff; */
     /* border: #05f7ff 0.50px solid; */
@@ -531,6 +545,11 @@ h2 {
                 0 0px 50px #15a3c7;
     transition: all 0.12s ease;
 }
+.icon_facebook:hover icon_facebook:not(:hover) {
+    display: flex;
+    /* position: fixed; */
+    filter: blur(10px);
+}
 .downloadfree a {
     /* position: fixed; */
     /* display: flex; */
@@ -551,4 +570,31 @@ h2 {
 }
 .downloadfree i {
     padding-left: 5%;
+}
+.uploadfile {
+    position: fixed;
+    display: flex;
+    left: 20%;
+    /* background-color: #010305; */
+    /* margin: 10%; */
+}
+.scroll {
+    display: flex;
+    overflow: hidden;
+    margin:  0 auto;
+}
+.container {
+    position:absolute;
+    display: flex;
+    margin: 0%;
+    top: 6%;
+    left: 40%;
+    opacity: 0.8;
+    animation:  scroll 20s linear infinite;
+}
+@keyframes scroll {
+    to {
+        transform: translateX(-110%);
+        /* transform: translateX(110%); */
+    }
 }
