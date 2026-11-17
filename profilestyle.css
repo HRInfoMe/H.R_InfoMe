@@ -579,22 +579,45 @@ h2 {
     /* margin: 10%; */
 }
 .scroll {
+    position: absolute;
     display: flex;
-    overflow: hidden;
-    margin:  0 auto;
+    top: 1em;
+    width: 20em;
+    /* margin: 20px; */
+    border-radius: 20px;
+    border: #768285 1.50px solid;
+    backdrop-filter: blur(5px);
+    background: linear-gradient(260deg ,#6fb5c0a2 50% ,#4687a3 100%);
+    transition: all 0.06s ease-in-out;
+}
+.scroll:hover {
+    border: #00c6e9a9 1.50px solid ;
 }
 .container {
-    position:absolute;
+    /* position:relative; */
     display: flex;
-    margin: 0%;
-    top: 6%;
-    left: 40%;
+    margin: 8%;
+    /* font-size: 16px; */
+    /* top: -9.45em; */
+    flex-wrap: wrap;
+    left: 2%;
+    /* padding-left: 1%; */
+    /* right: -09%; */
     opacity: 0.8;
+    /* background-color: #0066ff; */
     animation:  scroll 20s linear infinite;
+}
+.container p{
+    position: relative;
+    display: flex;
+    margin: -8%;
+    margin-top: -11px;
+    font-size: 17px;
+    /* margin-left: 2%;*/
 }
 @keyframes scroll {
     to {
-        transform: translateX(-110%);
+        transform: translateX(-0% );
         /* transform: translateX(110%); */
     }
 }
