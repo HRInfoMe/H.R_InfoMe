@@ -582,12 +582,15 @@ h2 {
     position: absolute;
     display: flex;
     top: 1em;
-    width: 20em;
+    height: 2em;
+    width: 22em;
+    /* left: 29em; */
     /* margin: 20px; */
+    align-items: center;
     border-radius: 20px;
-    border: #768285 1.50px solid;
-    backdrop-filter: blur(5px);
-    background: linear-gradient(260deg ,#6fb5c0a2 50% ,#4687a3 100%);
+    border: #76828586 1.50px solid;
+    /* backdrop-filter: blur(5px); */
+    background: linear-gradient(260deg ,#6fb5c05b 50% ,#4687a370 100%);
     transition: all 0.06s ease-in-out;
 }
 .scroll:hover {
@@ -596,11 +599,11 @@ h2 {
 .container {
     /* position:relative; */
     display: flex;
-    margin: 8%;
+    margin: 4.60%;
     /* font-size: 16px; */
     /* top: -9.45em; */
     flex-wrap: wrap;
-    left: 2%;
+    /* left: 12%; */
     /* padding-left: 1%; */
     /* right: -09%; */
     opacity: 0.8;
@@ -610,10 +613,23 @@ h2 {
 .container p{
     position: relative;
     display: flex;
-    margin: -8%;
+    margin: -6%;
+    margin-left: 5%;
     margin-top: -11px;
     font-size: 17px;
+    color: #ffffff;
     /* margin-left: 2%;*/
+}
+.list {
+    color: #00c3ff;
+    margin: 0;
+    margin-top: 1%;
+    padding-right: -1%;
+
+}
+.list li{
+    box-shadow: 0 5px 0 8px 2px rgb(6, 180, 248);
+
 }
 @keyframes scroll {
     to {
